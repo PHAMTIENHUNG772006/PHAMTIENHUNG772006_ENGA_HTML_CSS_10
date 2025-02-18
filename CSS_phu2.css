@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+   
+}
+.body1{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background-color: #F9FAFC;
+    padding: 10px;
+}
+.box{
+    gap: 10px;
+    margin: 10px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEEF3;
+    color: rgba(166, 143, 143, 0.581);
+    width: 275px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.image{
+    width: 275px;
+    height: 300px;
+}

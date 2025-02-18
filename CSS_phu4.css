@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+}
+.body1{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+.section{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 15px;
+}
+.container{
+    background-color: gray;
+}
+.image{
+    width: 200px;
+    gap: 30px;
+    border-radius: 50%;
+}
+.text{
+    padding-top: 20px;
+    width: 600px;
+}
+button{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    margin-top: 20px;
+}

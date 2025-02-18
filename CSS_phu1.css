@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+   
+}
+.body1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: rgb(227, 217, 217);
+    padding: 24px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.nav{
+    padding: 5px;
+    gap: 20px;
+    display: flex;
+    list-style: none;
+    color: #837c7c;
+   
+}
+
+.link:hover{
+    color: black;
+}
+button{
+    transform: translateY(7px);
+}
+.logo{
+
+    margin-right: 24px;
+    font-family: Brush Script MT;
+    font-size: 30px;
+}
+.icon{
+    background-color: transparent;
+    color: white;
+}
+button{
+    background-color: #8D939E;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 24px;
+    transform: translateY(-2px);
+}

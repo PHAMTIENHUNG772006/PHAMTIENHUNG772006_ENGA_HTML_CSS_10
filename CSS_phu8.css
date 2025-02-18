@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+}
+.container{
+    display: flex;
+    margin-top:30px;
+}
+.container-child{
+    display: flex;
+    gap: 20px;
+}
+.paragrap{
+    width: 400px;
+}
+.link{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+.body1{
+    position: relative;
+}
+.body2{
+    position: relative;
+}
+h2{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.437);
+    background-color: white;
+}
+.section{
+    position: relative;
+    color: rgba(11, 8, 8, 0.712);
+    padding: 10px;
+    bottom: 77px;
+}
+.text{
+    padding: 10px;
+}
+.header{
+    background-color: yellow;
+    width: 120px;
+    padding: 5px;
+}
+.Next{
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+}
+.icon{
+    transform: translateY(3px);
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+   transform: translateY(-20px);
+}
+.link{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-blue{
+    color: rgb(11, 93, 208);
+    font-size: 20px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    color: gray;
+}
+.button{
+    width: 70px;
+    background-color: rgba(95, 95, 233, 0.779);
+    color: white;
+    padding: 2px;
+}
+.conten{
+    padding: 10px;
+    background-color: rgba(181, 173, 173, 0.493);
+}

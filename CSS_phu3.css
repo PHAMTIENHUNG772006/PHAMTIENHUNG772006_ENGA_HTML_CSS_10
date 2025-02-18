@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+   display: flex;
+   justify-content: center;
+}
+.body1{
+    position: relative;
+    margin: 10px;
+}
+.body2{
+    display: flex;
+    align-items: center;
+}
+.container{
+    border-radius: 5px;
+    background-color: rgb(232, 216, 216);
+}
+img{
+    width: 500px;
+}
+button{
+    margin: 24px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid ;
+    top: 2px;
+    right: 5px;
+}
+.image{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+.date{
+    padding: 10px;
+    color: rgb(145, 136, 136);
+}
+.text{
+    padding: 10px;
+    width: 500px;
+    padding-bottom: 15px;
+}

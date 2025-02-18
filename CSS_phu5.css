@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+}
+.image{
+    width: 200px;
+    height: 150px;
+}
+.header{
+    transform: translateX(-300px);
+}
+.container{
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(222, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.date-box{
+    padding: 10px 0px;
+    display: flex;
+    gap: 15px;
+}
+.body1{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+   color: black;
+}
+.text{
+    width: 500px;
+}
+.date{
+    background-color: #142850;
+    color: #89AFBF;
+    padding: 5px;
+    border-radius: 10px;
+}
+.line{
+    width: 700px;
+    border: 1px solid;
+    color: rgb(88, 82, 82);
+   
+}
